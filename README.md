@@ -1,6 +1,6 @@
 # finance.qyzar.eu
 
-**finance.qyzar.eu** is the first sub-project under the [Qyzar](https://qyzar.eu) umbrella — historically an online shop, now expanding into a suite of free tools. This project is a free, AI-powered market predictor for crypto and the stock market.
+**finance.qyzar.eu** is the first sub-project under the [Qyzar](https://qyzar.eu) umbrella — historically an online shop, now expanding into financial AI prediction. This project is a free, AI-powered market predictor for crypto and the stock market.
 
 > Some information in this repository is intentionally redacted for security — including the AI provider implementation and certain environment variables.
 
