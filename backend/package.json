@@ -1,0 +1,40 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "dev": "tsx watch src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:ai": "tsx scripts/test-ai.ts",
+    "test:ai:quick": "tsx scripts/test-ai.ts --quick",
+    "test:ai:live": "tsx scripts/test-ai.ts --live-agent",
+    "test:discovery": "tsx scripts/test-discovery.ts",
+    "test:discovery:status": "tsx scripts/test-discovery.ts --status",
+    "test:discovery:run": "tsx scripts/test-discovery.ts --run",
+    "report:discovery": "tsx scripts/regenerate-discovery-report.ts",
+    "seed:nasdaq": "tsx scripts/seed-nasdaq-watchlist.ts",
+    "seed:nasdaq:force": "tsx scripts/seed-nasdaq-watchlist.ts --force"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cron-parser": "^5.5.0",
+    "dotenv": "^17.4.2",
+    "firebase-admin": "^14.0.0",
+    "node-cron": "^3.0.3",
+    "pg": "^8.21.0",
+    "ws": "^8.21.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.0",
+    "@types/node-cron": "^3.0.11",
+    "@types/pg": "^8.11.14",
+    "@types/ws": "^8.18.1",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  }
+}
